@@ -71,7 +71,6 @@ class Viewport {
             };
         }
     }
-
     #handleMouseWheel(evt) {
         const dir = Math.sign(evt.deltaY);
         const step = 0.1;
